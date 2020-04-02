@@ -1,0 +1,23 @@
+{
+  "name": "deneysasselman",
+  "version": "1.0.0",
+  "description": "Bludit theme for www.deneys-asselman.be",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schophil/deneysasselman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schophil/deneysasselman/issues"
+  },
+  "homepage": "https://github.com/schophil/deneysasselman#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
