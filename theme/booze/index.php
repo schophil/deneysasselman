@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
     <?php 
         echo Theme::metaTags('title'); 
         echo Theme::metaTags('description');
     ?>
     <?php 
-        echo Theme::css('booze_bootstrap.css');
-        echo Theme::css('style_blue.css');
+        // echo Theme::css('style/orange/booze_bootstrap.css');
+        echo Theme::css('style/navy/style.css');
+        // echo Theme::css('style/orange/style.css');
     ?>
 </head>
 <body>

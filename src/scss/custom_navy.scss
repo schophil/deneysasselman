@@ -1,0 +1,22 @@
+$primary: #960404;
+$black: #000;
+$box-shadow-lg: 0 1rem 3rem rgba($black, .85);
+$btn-border-radius: 0;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// base variables
+$background-image: url(../../img/logo_navy.jpg);
+$nav-color: #020258;
+$header-bg-color: #B51A1A;
+$header-fg-color: white;
+$header-shadow-color: #960404;
+$header-image: url(../../img/logo_header_navy.jpg);
+$header-border: 3px solid #960404;
+$header-font-family: 'Berkshire Swash', cursive;
+$header-lg-font-size: 40pt;
+$header-sm-font-size: 24pt;
+
+@import "base.scss";
+
+

@@ -71,7 +71,7 @@
 
 <!-- <div id="header" class="mb-3 rounded">&nbsp;</div> -->
 
-<div id="header" class="mb-3">
+<div id="header" class="mb-3 rounded">
     <div id="header-inner">
         <div id="header-text">Think global, drink local!</div>
     </div>

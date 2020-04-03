@@ -1,0 +1,16 @@
+$primary: #00D780;
+$black: #000;
+$box-shadow-lg: 0 1rem 3rem rgba($black, .70);
+$btn-border-radius: 0;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// base variables
+$background-image: url(../../img/logo_blue.jpg);
+$nav-color: #035192;
+$accent-color: #0E86EA;
+$header-color: #00D780;
+$header-shadow-color: #009A5C;
+$header-image: url(../../img/logo_header_navy.jpg);
+
+@import "base.scss";

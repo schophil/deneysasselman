@@ -1,0 +1,97 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-image: $background-image;
+    background-repeat: repeat;
+}
+
+#main {
+    p.lead {
+        color: #0570C8;
+    }
+    nav {
+        background-color: $nav-color;
+    }
+}
+
+#header {
+    background-color: $header-bg-color;
+    border: $header-border;
+    height: 200px;
+    color: $header-fg-color;
+
+    #header-text {
+        font-size: 20pt;
+        padding-left: 30px;
+        padding-top: 20px;
+        text-shadow: 2px 2px $header-shadow-color;
+        font-family: $header-font-family;
+    }
+
+    #header-inner {
+        background-image: $header-image;
+        background-repeat: no-repeat;
+        background-position: left;
+        height: 100%;
+    }
+}
+
+#footer {
+    background-color: $nav-color;
+    clear: both;
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    border-left: #339af0 4px solid;
+}
+
+#menu-large {
+    display: none;
+}
+
+#menu-small {
+    display:  block;
+}
+
+.cover-image {
+    display: none;
+}
+
+#content-wrapper {
+    padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #header #header-text {
+        font-size: $header-sm-font-size;
+        transform: rotate(-5deg);
+    }
+    #header {
+        background-image: url(../../img/hubert_cartoon.jpg);
+        background-repeat: no-repeat;
+        background-position: right; 
+    }
+    #content-wrapper {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #header #header-text {
+        font-size: $header-lg-font-size;
+        transform: rotate(-5deg);
+    }
+    #menu-large {
+        display: block;
+    }
+    #menu-small {
+        display:  none;
+    }
+    .cover-image {
+        display: block;
+    }
+}
