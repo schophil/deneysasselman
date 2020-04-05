@@ -9893,7 +9893,7 @@ body, html {
 #header {
   background-color: #B51A1A;
   border: 3px solid #960404;
-  height: 200px;
+  height: 150px;
   color: white;
 }
 #header #header-text {
@@ -9940,7 +9940,7 @@ blockquote {
 
 @media only screen and (min-width: 768px) {
   #header #header-text {
-    font-size: 24pt;
+    font-size: 26pt;
     transform: rotate(-5deg);
   }
 
@@ -9948,6 +9948,7 @@ blockquote {
     background-image: url(../../img/hubert_cartoon.jpg);
     background-repeat: no-repeat;
     background-position: right;
+    height: 150px;
   }
 
   #content-wrapper {
@@ -9955,6 +9956,10 @@ blockquote {
   }
 }
 @media only screen and (min-width: 992px) {
+  #header {
+    height: 200px;
+  }
+
   #header #header-text {
     font-size: 40pt;
     transform: rotate(-5deg);

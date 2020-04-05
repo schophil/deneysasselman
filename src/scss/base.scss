@@ -18,7 +18,7 @@ body, html {
 #header {
     background-color: $header-bg-color;
     border: $header-border;
-    height: 200px;
+    height: 150px;
     color: $header-fg-color;
 
     #header-text {
@@ -74,6 +74,7 @@ blockquote {
         background-image: url(../../img/hubert_cartoon.jpg);
         background-repeat: no-repeat;
         background-position: right; 
+        height: 150px;
     }
     #content-wrapper {
         padding: 1rem;
@@ -81,6 +82,9 @@ blockquote {
 }
 
 @media only screen and (min-width: 992px) {
+    #header {
+        height: 200px;
+    }
     #header #header-text {
         font-size: $header-lg-font-size;
         transform: rotate(-5deg);
