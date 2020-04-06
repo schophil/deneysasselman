@@ -9968,6 +9968,9 @@ blockquote {
   #menu-large {
     display: block;
   }
+  #menu-large a {
+    margin-bottom: 3px;
+  }
 
   #menu-small {
     display: none;

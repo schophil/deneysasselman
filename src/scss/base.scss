@@ -91,6 +91,9 @@ blockquote {
     }
     #menu-large {
         display: block;
+        a {
+            margin-bottom: 3px;
+        }
     }
     #menu-small {
         display:  none;
