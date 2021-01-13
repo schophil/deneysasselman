@@ -73,7 +73,7 @@
 
 <div id="header" class="mb-3">
     <div id="header-inner">
-        <div id="header-text">Think global, drink local!</div>
+        <div id="header-text">Wees loyaal, koop lokaal!</div>
     </div>
 </div>
 
