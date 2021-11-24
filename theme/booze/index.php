@@ -25,7 +25,7 @@
             <a class="navbar-brand" href="/">Drankencentrale De Neys-Asselman</a>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/oud-tassels">Oud Tassels</a>
+                    <a class="nav-link" href="/berrevoesj">Berrevoesj</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/over-ons">Over ons</a>
